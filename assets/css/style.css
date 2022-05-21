@@ -1,0 +1,932 @@
+/***
+Template Name: Apointfly 
+Template Url : creative_subir.info
+Author       :Subir
+Author Url   : creative_subir.info
+Description  :This is test Business Website
+Tag          : Bussiness website , html template
+Version      : 1.0.0
+
+table of content
+================
+** Import Css file **
+** Default Css ** 
+1. Header Area Css
+2. Bannar Area Css
+3. Passion Area Css
+4. Team Members Area Css
+5. Apps Area Css
+6. Footer Area Css
+******/
+   /**********************************/
+  /******* Import css fonts *********/
+/**********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+   /*********************************/
+  /********* Default css **********/
+/*********************************/
+html{
+    font-size: 62.50%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 72px;
+    font-size: 7.2rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 60px;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 60px;
+    line-height: 6rem;
+}
+h3{
+    font-size: 35px;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+h4{
+    font-weight: 600;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #EE3465;
+}
+.section-title{
+    text-align: center;
+    padding: 50px 0;
+    padding: 5rem 0;
+}
+.section-title h2{
+    max-width: 750px;
+    max-width: 75rem;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-bottom: 2rem;
+    
+}
+.section-title p{
+    max-width: 600px;
+    max-width: 60rem;
+    margin:auto;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #696969;
+}
+.section-padding{
+    padding: 70px 0;
+    padding: 7rem 0;
+}
+  /*************************************/
+ /******* 1. Header Area  css *********/
+/*************************************/
+.header-area{
+    padding: 30px 0;
+    padding: 3rem 0;
+    position: relative;
+}
+.header-area .fixed{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.active-man{
+     -webkit-transition: .5s;
+     transition: .5s;
+     background: #fff;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+     position: fixed;
+     width: 100%;
+     z-index: 99;
+     color: #fff !important;
+     padding: 15px 0;
+}
+.logo-area img{
+    height: 35px;
+    height: 3.5rem;
+    width: auto;
+}
+/* menu area */
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu li{ 
+    margin: 0 15px; 
+    margin: 0 1.5rem;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+    font-weight: 600;
+    -webkit-transition: .5s;
+    transition: .5s;  
+}
+.menu li.active a,
+.menu li a:hover{
+    color: #345DEE;
+}
+.menu-icon:hover{
+    color:#fff !important;
+}
+.header-btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header-btn a{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin-left: 20px;
+    margin-left: 2rem;
+    font-weight: 600;
+    padding: 8px 15px;
+    padding: .8rem 1.5rem;
+    border-radius: 1rem;
+    line-height: normal;
+}
+.header-btn a:hover, .header-btn a.active{
+    background-color: #345DEE;
+    color: #fff;
+}
+.header-btn a.active:hover{
+    background-color: #2849BA;
+}
+.menu-icon {
+	border: 1px solid #345DEE;
+    color: #345DEE !important;
+	padding: 5px 15px !important;
+	font-size: 20px;
+	font-size: 2rem;
+    display: none !important;
+}
+   /************************************/
+  /******* 2. Bannar Area  css *******/
+/************************************/
+.bannar-area{
+    padding-top: 30px;
+    padding-top: 3rem;
+    padding-bottom: 70px;
+    padding-bottom: 7rem;
+}
+.bannar-left h1{
+    max-width: 550px;
+    max-width: 55rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.bannar-left > p{
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    line-height: 28px;
+    line-height: 2.8rem;
+    max-width: 550px;
+    max-width: 55rem;
+    color: #696969;
+}
+.bannar-left a{
+    padding: 12px 40px;
+    padding: 1.2rem 4rem;
+    background-color: #345DEE;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.bannar-left a:hover{
+    background-color: #2849BA;
+}
+.bannar-left .small{
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #696969;
+}
+.subscribe-form form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 550px;
+    max-width: 55rem;
+}
+.subscribe-form .f-input{
+    padding: 12px;
+    padding: 1.2rem;
+    background-color: #EFF2F6;
+    border-radius: 1rem;
+    color: #000000;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 calc(70% - 20px);
+            flex:0 0 calc(70% - 20px);
+    max-width: calc(70% - 20px);
+}
+.subscribe-form .f-input::-webkit-input-placeholder{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.subscribe-form .f-input::-moz-placeholder{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.subscribe-form .f-input:-ms-input-placeholder{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.subscribe-form .f-input::placeholder{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.subscribe-form .f-sub-btn{
+    padding: 12px;
+    padding: 1.2rem;
+    background-color: #345DEE;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    -webkit-box-flex:0;
+        -ms-flex:0 0 30%;
+            flex:0 0 30%;
+    max-width: 30%;
+}
+.subscribe-form p{
+    font-size: 15px;
+    font-size: 1.5rem;
+    color: #696969;
+    margin: 10px 0;
+    margin: 1rem 0;
+}
+.bannar-right{
+    text-align: right;
+}
+.bannar-right img{
+    width: 70%;
+    height: auto;
+}
+   /************************************/
+  /******* 3. Passion Area  css ******/
+/************************************/
+.single-passion-row{
+    padding: 50px 0;
+    padding: 5rem 0;
+}
+.passion-content{
+    max-width: 450px;
+    max-width: 45rem;
+}
+.passion-content h4{
+    margin-top: 10px;
+    margin-top: 1rem;
+}
+.passion-content h3{
+    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
+    line-height: 40px;
+    line-height: 4rem;
+}
+.passion-content p{
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #696969;
+    padding-right: 50px;
+    padding-right: 5rem;
+}
+.passion-content a{
+    text-decoration: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10px;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+}
+.passion-content a:after{
+    position: absolute;
+    content: "";
+    bottom: 3px;
+    right: 0;
+    width: calc(100% - 40px);
+    height: 2px;
+    background-color: #345DEE;
+}
+.passion-content a:hover{
+    color: #345DEE;
+}
+.passion-content a i{
+    font-size: 30px;
+    font-size: 3rem;
+    color: #345DEE;
+    padding-right: 10px;
+    padding-right: 1rem;
+}
+.passion-image{
+    text-align: right;
+}
+.passion-image img{
+    max-width: 450px;
+    max-width: 45rem;
+}
+.single-passion-row:nth-child(odd) .passion-image{
+    text-align: left;
+}
+.single-passion-row:nth-child(odd) .passion-content{
+    float: right;
+}
+   /****************************************/
+  /******* 4.Team Members Area  css ******/
+/****************************************/
+.team-content {
+	padding: 20px;
+	padding: 2rem;
+	border: 1px solid #DFE4EA;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.member-img img {
+	border-radius: 10px;
+	height: 220px;
+	width: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.team-content p {
+	text-align: center;
+	margin-top: 20px;
+	margin-top: 2rem;
+    font-size: 22px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #18214D;
+}
+.member-img{
+    position: relative;
+}
+.member-img:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10,92,255, .5);
+    border-radius: 1rem;
+}
+.see-more{
+    text-align: center;
+    margin-top: 30px;
+    margin-top: 3rem;
+}
+.see-more a{
+    text-decoration: none;
+    color: #18214D;
+    font-weight: 600;
+}
+.see-more a:hover{
+    color: #345DEE;
+}
+.see-more a img{
+    margin-left: 10px;
+    margin-left: 1rem;
+}
+   /****************************************/
+  /******* 5.Apps Area  css **************/
+/****************************************/
+.apps-area .section-title h2 {
+	max-width: 100%;
+}
+.single-img-caro{
+    height: 45px;
+    height: 4.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.single-img-caro img{
+    max-width: 135px;
+    height: auto;
+    margin: auto;
+}
+.apps-carousel{
+    max-width: 900px;
+    margin: auto;
+}
+.apps-carousel .owl-nav .owl-prev,
+.apps-carousel .owl-nav .owl-next{
+    background-color: #EFF2F6 !important;
+    height: 40px;
+    height: 4rem;
+    width: 40px;
+    width: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.apps-carousel .owl-nav .owl-prev{
+    left: -80px;
+    left: -8rem;
+}
+.apps-carousel .owl-nav .owl-next{
+    right: -80px;
+    right: -8rem;
+}
+.apps-carousel .owl-nav .owl-prev:hover,
+.apps-carousel .owl-nav .owl-next:hover{
+    background-color: #345DEE !important;
+    color: #fff;
+}
+   /****************************************/
+  /******* 6.Footer  Area  css ************/
+/****************************************/
+.top-footer-area{
+    padding-top: 50px;
+    padding-top: 5rem;
+}
+.f-top{
+    margin-bottom: 70px;
+    margin-bottom: 7rem;
+}
+.single-footer h4{
+    color: #000000;
+}
+.single-footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.single-footer li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #696969;
+    margin-top: 10px;
+    margin-top: 1rem;
+}
+.single-footer li a:hover{
+    color: #345DEE;
+}
+/* footer copyright */
+.f-bottom{
+    border-top: 1px solid #DFE4EA;
+    padding: 40px 0;
+    padding:4rem 0;
+}
+.f-bottom .subscribe-form p{
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 600;
+}
+.f-bottom .subscribe-form .f-input{
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.f-bottom .subscribe-form .f-input::-webkit-input-placeholder{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.f-bottom .subscribe-form .f-input::-moz-placeholder{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.f-bottom .subscribe-form .f-input:-ms-input-placeholder{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.f-bottom .subscribe-form .f-input::placeholder{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.copyright-social ul{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.copyright-social li a{
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 7px;
+    height: 50px;
+    height: 5rem;
+    width: 50px;
+    width: 5rem;
+    line-height: 50px;
+    line-height: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #DFE4EA;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.copyright-social li a:after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #345DEE;
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.copyright-social li a:hover:after{
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+}
+.copyright-social li a:hover{
+    color: #fff;
+}
+   /****************************************/
+  /******* 6.Footer  Area End ************/
+/****************************************/
+
+   /****************************************/
+  /******* About Page  Area  css **********/
+/****************************************/
+.mixi-content{
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+.mixi-content ul{
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.mixi-content li {
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #345DEE;
+	padding: 4px 25px;
+	padding: 4px 2.5rem;
+	border: 1px solid #345DEE;
+	-webkit-transition: .5s;
+	transition: .5s;
+	cursor: pointer;
+	border-right: none;
+}
+.mixi-content li:last-child{
+    border-right: 1px solid #345DEE;
+}
+.mixi-content li:hover{
+    background-color: #345DEE;
+    color: #fff;
+}
+.mixitup-control-active{
+	background: #345DEE;
+    color: #fff !important;
+}
+   /****************************************/
+  /******* Ask Page  Area  css ************/
+/****************************************/
+.accordion-button {
+	font-size: 17px;
+	font-size: 1.7rem;
+    font-weight: 600;
+	padding: 0px 12.5px;
+	padding: 0rem 1.25rem;
+}
+.accordion-button:after {
+	background-image:url(../images/plus-solid.svg);
+}
+.accordion-button:not(.collapsed):after {
+	background-image: url(../images/minus-solid.svg);
+}
+.accordion-button:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+.accordion-body {
+	padding: 30px 12.5px;
+	padding: 3rem 1.25rem;
+}
+.accordion-body p {
+	max-width: 85%;
+	line-height: 28px;
+	line-height: 2.8rem;
+}
+   /********************************************/
+  /******* Pricing Page  Area  css ************/
+/*********************************************/
+.pricing-items h2 {
+	font-size: 45px;
+	font-size: 4.5rem;
+	line-height: 45px;
+	line-height: 4.5rem;
+}
+.check-switch{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+    margin-bottom: 10rem;
+}
+.toggle-check {
+	height: 25px;
+	width: 55px;
+	appearance: none;
+	-webkit-appearance: none; 
+    -moz-appearance: none; 
+	border:1px solid #EE3465;
+	border-radius: 25px;
+	margin: 0 5px;
+	margin: 0 .5rem;
+    position: relative;
+}
+.toggle-check:after {
+	position: absolute;
+	content: "";
+	top: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: #EE3465;
+	border-radius: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	right: 2px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.toggle-check:checked:after{
+    right: 60%;
+}
+.service-list h4{
+    color: #000000;
+    font-size: 22px;
+    font-size: 2.2rem;
+    margin: 20px 0;
+    margin: 2rem 0;
+    font-weight: 600;
+}
+.service-list ul{
+    list-style: none;
+    padding: 0;
+}
+.service-list ul li{
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-bottom: 14px;
+    margin-bottom: 1.4rem;
+}
+.items-features {
+	margin-top: 50px;
+	margin-top: 5rem;
+}
+.items-features ul {
+	list-style: none;
+	padding: 0;
+}
+.items-features ul li{
+    margin-bottom: 14px;
+    margin-bottom: 1.4rem ;
+}
+.pricing-btns {
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #345DEE;
+	border-radius: 6px;
+	font-size: 20px;
+	font-size: 2rem;
+    margin-top: 120px;
+    margin-top: 12rem;
+}
+.pricing-btns:hover{
+    background-color: #EE3465;
+    color: #fff;
+}
+.pricing-items-list {
+	background-color: #EFF2F6;
+	padding: 30px;
+	box-sizing: border-box;
+    height: 100%;
+    border-radius: 10px;
+}
+.pricing-items-list h2{
+    text-align: center;
+}
+.pricing-items-list span {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+   /********************************************/
+  /******* Contact Page  Area  css ************/
+/*********************************************/
+.contact-left h2{
+    font-size: 56px;
+    font-size: 5.6rem;
+}
+.contact-left p {
+	font-size: 18px;
+	font-size: 1.8rem;
+	max-width: 520px;
+	margin: 12px 0;
+}
+.input-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.input-name {
+	width: 100%;
+	outline: none;
+	font-size: 14px;
+	padding: 10px 8px;
+	border-radius: 5px;
+	border: none;
+	background: #DDD;
+	margin-bottom: 20px;
+}
+.input-name:first-child{
+    margin-right: 15px;
+}
+.massage-area{
+    width: 100%;
+    background: #DDD;
+    outline: none;
+	font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding-left:8px;
+    resize: none;
+}
+.contact-sub{
+    padding: 12px 100px;
+    padding: 1.2rem 10rem;
+    background-color: #345DEE;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+.contact-sub:hover{
+    background-color: #EE3465;
+}
+.contact-right{
+    float: right;
+}
+.contact-right ul{
+    list-style: none;
+    padding: 0;
+}
+.contact-right li span{
+    display: block;
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #696969;
+}
+.contact-right li a{
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    margin: 10px 0;
+    margin: 1rem 0;
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.contact-icon a{
+    display: inline-block;
+    color: #000000;
+    font-size: 20px;
+    margin-right: 7px;
+    height: 50px;
+    height: 5rem;
+    width: 50px;
+    width: 5rem;
+    line-height: 50px;
+    line-height: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #DFE4EA;
+    -webkit-transition: .5s;
+    transition: .5s;   
+}
+.contact-icon a:hover{
+    background-color: #345DEE;
+    color: #fff;
+}
+
+   /********************************************/
+  /******* features Page  Area  css ************/
+/*********************************************/
+.features-area{
+    padding-bottom: 80px;
+    padding-bottom: 8rem;
+}

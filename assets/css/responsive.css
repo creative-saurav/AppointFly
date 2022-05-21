@@ -1,0 +1,189 @@
+@media all and (min-width:991px){
+    .menu-items{
+        display: block !important;
+    }
+}
+@media all and (max-width:991px){
+    /************* Header area *******************/
+    .menu-icon {
+        display: block !important;
+    }
+    .menu-items{
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background:#345DEE;
+        padding: 2rem 0;
+    }
+    .menu-items .menu ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .menu-items .menu li.active a{
+        color: #fff;
+    }
+    .menu-items .menu li a{
+        padding: 1rem 0;
+        color: #fff;
+    }
+    .menu-items .menu li {
+        border-bottom: 1px solid #000;
+        width: 90%;
+    }
+    .menu-items .menu li:last-child{
+        border: none;
+    }
+     /************* bannar area *******************/
+     .bannar-right{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    /************* Passion area *******************/
+    h2 {
+        font-size: 5rem;
+    }
+    .passion-image img {
+        max-width: 100%;
+        width: 90%;
+    }
+    .passion-content{
+        margin-bottom: 3rem;
+    }
+    .single-passion-row:nth-child(odd) .col-md-6:last-child{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .single-passion-row:nth-child(odd) .passion-content{
+        float: none;
+    }
+    .single-passion-row:nth-child(even) .passion-image{
+        text-align: left;
+    }
+    /* members area */
+    .team-content{
+        margin-bottom: 3rem;
+    }
+    /* our apss area */
+    .apps-carousel .owl-nav .owl-prev{
+        left: -2.5rem;
+    }
+    .apps-carousel .owl-nav .owl-next{
+        right: -2.5rem;
+    }
+    /* footer area */
+    .single-footer{
+        margin-bottom: 3rem;
+    }
+    .copyright-social{
+        margin-top: 3rem;
+    }
+    .copyright-social ul{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /****************  About page  *****************/
+    .mixi-content ul{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .mixi-content ul li{
+        margin-bottom: 1.5rem;
+    }
+    /* ask page acordion area */
+    .accordion-body p {
+        max-width: 100%;
+    }
+}
+@media all and (max-width:767px){
+    /************** contact page  ************/
+    .contact-right {
+        float: left;
+        margin-top: 4.5rem;
+    }
+    /************ about  page  ****************/
+    .mixi-content li{
+        border: 1px solid #345DEE;
+        margin: 0 5px;
+    }
+}
+@media all and (max-width:576px){
+    .section-padding{
+        padding: 2rem 0;
+    }
+    /************* Header area *******************/
+    .header-btn a {
+        display: none;
+    }
+    .menu-icon {
+        margin-right: 1rem;
+    }
+    /************* Bannar area *******************/
+    h1{
+        font-size: 4.5rem;
+    }
+    .bannar-left h1 {
+        max-width: 40rem;
+        font-size: 4rem;
+    }
+    .bannar-left > p {
+        font-size: 1.6rem;
+    }
+    .subscribe-form form {
+        -webkit-box-pack: inherit;
+            -ms-flex-pack: inherit;
+                justify-content: inherit;
+        -webkit-box-align: inherit;
+            -ms-flex-align: inherit;
+                    -ms-grid-row-align: inherit;
+                align-items: inherit;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .subscribe-form .f-input {
+        -webkit-box-flex:0;
+            -ms-flex:0 0  100%;
+                flex:0 0  100%;
+        max-width: 100%;
+    }
+    .subscribe-form .f-sub-btn {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 1.5rem;
+    }
+    .bannar-right img{
+        max-width: 80%;
+    }
+    /************* Passion area *******************/
+    h2 {
+        font-size: 3.5rem !important;
+        line-height: 4.5rem;
+    }
+    h3 {
+        font-size: 2.7rem;
+    }
+    .section-title p {
+        font-size: 1.6rem;
+    }
+    .passion-content p {
+        font-size: 1.6rem;
+        padding-right: 0;
+    }
+    /* our apss area */
+    .apps-carousel .owl-nav .owl-prev{
+        left: 1rem;
+    }
+    .apps-carousel .owl-nav .owl-next{
+        right: 1rem;
+    }
+    
+}
